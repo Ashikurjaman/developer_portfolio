@@ -42,5 +42,31 @@ body{
     }
     .experice-section{
         display: flex ;
+        background-image: url(images/exp-bg.png);
+        background-repeat:no-repeat;
+        margin-bottom: 50px;
         
+    }
+    .experince{
+        box-shadow: 10px 10px 20px 10px gray;
+        width: 40%;
+        padding-left: 2%;
+        padding-right: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+        
+
+    }
+    .experince h2{
+        font-size: 30px;
+    }
+    #baby{
+        border-left: 7px solid;
+        border-image: linear-gradient(#f6b73c, salmon) 30;
+        border-image-slice: 1;
+        
+    }
+    footer{
+        text-align: center;
     }

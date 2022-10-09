@@ -1,0 +1,34 @@
+body{
+    font-family: 'Abyssinica SIL', serif;
+    margin: 0;
+}
+
+    h1{
+        font-size: 50px;
+    }
+
+    .name{
+        color: orangered;
+    }
+    .Hero-section{
+        display: flex;
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+
+    .half-section{
+        width: 50%;
+        padding-left: 2%;
+    }
+
+    .half-section img{
+        width: 80%;
+    }
+
+    .half-section a{
+        text-decoration: none;
+        background-image: linear-gradient(orange,rgb(255, 60, 0));
+        padding: 10px 25px;
+        color: aliceblue;
+        border-radius: 5px;
+    }

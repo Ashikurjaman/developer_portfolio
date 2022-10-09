@@ -40,3 +40,7 @@ body{
         background-repeat: no-repeat;
         background-position: right;
     }
+    .experice-section{
+        display: flex ;
+        
+    }

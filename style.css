@@ -14,11 +14,13 @@ body{
         display: flex;
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
+        margin-bottom: 150px;
     }
 
     .half-section{
         width: 50%;
         padding-left: 2%;
+        padding-right: 5%;
     }
 
     .half-section img{
@@ -31,4 +33,10 @@ body{
         padding: 10px 25px;
         color: aliceblue;
         border-radius: 5px;
+    }
+    .dream-section{
+        display: flex ;
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
